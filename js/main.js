@@ -27,7 +27,8 @@ function addingNumbers(){
         currentTotal += total; 
     init();
 
-console.log("you are going to add now")
+console.log("binded complete, adding now")
+console.log(bindNumber)
 }
 
 
@@ -41,7 +42,8 @@ function subtractingNumbers(){
         currentTotal -= total; 
     init();
 
-console.log("you are going to subtract now")
+console.log("binded complete, subtracting now")
+console.log(bindNumber)
 }
 
 
@@ -59,7 +61,7 @@ addingNumbers();
 document.getElementById("minusBtn").addEventListener("click",function(){
 console.log("subtracting completed")
 
-//call  the subtraction function
+//call the subtraction function
 subtractingNumbers();
 })
 
@@ -67,6 +69,7 @@ subtractingNumbers();
 function start(){
     currentTotal = 0;
     init();
+console.log("function started")
 }
 
 
@@ -86,6 +89,7 @@ function init() {
         result.style.color = "red";
         result.textContent = currentTotal;
     }; 
+console.log("init loaded")
 };
 
 
