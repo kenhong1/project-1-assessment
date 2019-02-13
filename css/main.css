@@ -32,7 +32,7 @@ h1{
     margin: 0 auto;
     width: 150px;
     height: 20px;
-    border: 1px solid red;
+    margin-top: 100px;
 }
 
 
@@ -41,13 +41,14 @@ h1{
     height: 20px; 
     display: flex;  /* defaults to row layout */
  	justify-content: center;  /* centers items horizontally in row layout */
- 	align-items: center; 
 }
 
 #minusBtn{
     width: 100px;
     height: 100px;
     font-size: 40px;
+    position: fixed;
+    right: 550px;
 }
 #minusBtn:hover {
     color: silver;
@@ -59,6 +60,9 @@ h1{
     width: 100px;
     height: 100px;
     font-size: 40px;
+    position: fixed;
+    left: 550px;
+    top: 108px;
 }
 
 #addBtn:hover {
